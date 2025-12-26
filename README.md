@@ -82,5 +82,5 @@ Public verification ensures transparency.
 
 # Conclusion
 
-This project demonstrates how blockchain technology can be used to securely issue and verify certificates. By storing certificate hashes on the Ethereum blockchain, the system prevents forgery, ensures data integrity, and enables instant verification without relying on centralized authorities. The solution is efficient, transparent, and suitable for real-world certificate verification applicatio
+This project demonstrates how blockchain technology can be used to securely issue and verify certificates. By storing certificate hashes on the Ethereum blockchain, the system prevents forgery, ensures data integrity, and enables instant verification without relying on centralized authorities. The solution is efficient, transparent, and suitable for real-world certificate verification application.
 

@@ -1,4 +1,5 @@
-
+# Decentralized Certificate Verification Using Blockchain
+The code has been given in my repository
 **Abstract**
 
 The rapid increase in digital certification has led to a growing risk of forged and tampered credentials. This project presents a decentralized certificate verification system built on the Ethereum blockchain, designed to ensure authenticity, transparency, and immutability of certificates. By storing cryptographic hashes of certificates on the blockchain, the system enables instant and trustless verification without relying on centralized authorities.
@@ -47,20 +48,20 @@ Event logging for issued certificates
 
 # Functional Workflow
 **Certificate Issuance**
-
+```
 1.The university deploys the smart contract.
 2.Certificate details (student name, degree, year) are submitted.
 3.A cryptographic hash is generated using Keccak256.
 4.The hash is stored permanently on the blockchain.
 5.A blockchain event confirms successful issuance.
-
+```
 # Certificate Verification
-
+```
 1.The verifier enters certificate details.
 2.The system regenerates the hash.
 3.The blockchain is queried for the hash.
 4.Verification result is returned instantly.
-
+```
 # Security Considerations
 
 Only the contract owner (university) can issue certificates.
